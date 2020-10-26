@@ -5,7 +5,7 @@ A Talentify.io nasceu da fusão de 3 empresas distintas em 3 áreas diferentes: 
 Estamos constante adicionando novas features e aperfeiçoando as já existentes. Como desenvolvedor sênior, voce será responsável por criar código limpo, testável, e de alta qualidade, além de auxiliar o restante da equipe a migrar código existente para a nova arquitetura orientada a domínio.Somos adeptos de desenvolvimento ágil, integração contínua, code review e testes automáticos. Com isso, nossa equipe busca constantemente desenvolver e aprimorar o produto para estarmos sempre a frente do mercado.
 
 ## Beneficios
-- Home office (a ser combinado)
+- Home office (você pode trabalhar em casa ou em nosso escritório, em Alphaville/SP)
 - Horario flexivel
 - Assistencia medica e odontologica (apos 3 meses)
 - Vale refeicao e transporte
