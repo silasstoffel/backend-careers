@@ -41,6 +41,7 @@ Você deverá construir um pequeno sistema para publicação de vagas de emprego
 #### Observações
 - Você pode, ou não, utilizar qualquer framework ou biblioteca PHP que desejar, desde que a lógica de negócio descrita acima seja feita por você, em puro PHP.
 - As interfaces podem ou não serem gráficas (GUI), isto é, podem ser qualquer tipo de canal que possibilite a comunicação com a aplicação, tais como: RESTful, GraphQL, SOAP, JSON-RPC, (X)HTML com ou sem javascript, etc.
+- Testes automatizados (de unidade e/ou funcionais e/ou aceitação) deverão ser escritos.
 - Um README.md deverá ser adicionado e conter, no mínimo, as instruções de setup e utilização da aplicação.
 
 #### Envio
