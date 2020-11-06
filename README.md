@@ -1,8 +1,11 @@
-## A empresa
-A Talentify.io nasceu da fusão de 3 empresas distintas em 3 áreas diferentes: Digital Media & Advertising, Mobile Technology e HR Consulting. Nossa plataforma de SaaS ajuda empresas a superar seus maiores desafios na  busca e contratação de talentos em grande escala.
-
 ## A vaga
 Estamos constante adicionando novas features e aperfeiçoando as já existentes. Como desenvolvedor sênior, voce será responsável por criar código limpo, testável, e de alta qualidade, além de auxiliar o restante da equipe a migrar código existente para a nova arquitetura orientada a domínio.Somos adeptos de desenvolvimento ágil, integração contínua, code review e testes automáticos. Com isso, nossa equipe busca constantemente desenvolver e aprimorar o produto para estarmos sempre a frente do mercado.
+
+<details>
+<summary>Detalhes da vaga</summary>
+
+## A empresa
+A Talentify.io nasceu da fusão de 3 empresas distintas em 3 áreas diferentes: Digital Media & Advertising, Mobile Technology e HR Consulting. Nossa plataforma de SaaS ajuda empresas a superar seus maiores desafios na  busca e contratação de talentos em grande escala.
 
 ## Beneficios
 - Home office (você pode trabalhar em casa ou em nosso escritório, em Alphaville/SP)
@@ -31,12 +34,14 @@ Estamos constante adicionando novas features e aperfeiçoando as já existentes.
 - CI/CD
 - Inglês (leitura, escrita e conversação)
 
+</details>
+
 ## Talk is cheap. Show me the code!
 Você deverá construir um pequeno sistema para publicação de vagas de emprego. Ele irá possuir os seguintes recursos:
-* Interface, de acesso público, com a listagem das vagas abertas
-* Interface para login
-* Interface administrativa, de acesso privado, com os seguintes recursos:
-  * Cadastro de vaga contendo os campos: title (string, 256 characteres, obrigatório) , description (string, 10000 caracteres, obrigatório), status (enum, obrigatório), workplace (endereço, opcional), salary (dólar americano, opicional).
+* Acesso público, com a listagem das vagas abertas
+* Login
+* Acesso administrativo, de acesso privado, com os seguintes recursos:
+  * Cadastro de vaga contendo os campos: title (string, 256 characteres, obrigatório), description (string, 10000 caracteres, obrigatório), status (enum, obrigatório), workplace (endereço, opcional), salary (dólar americano, opcional).
  
 #### Observações
 - Você pode, ou não, utilizar qualquer framework ou biblioteca PHP que desejar, desde que a lógica de negócio descrita acima seja feita por você, em puro PHP.
