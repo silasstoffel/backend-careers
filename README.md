@@ -37,20 +37,25 @@ A Talentify.io nasceu da fusão de 3 empresas distintas em 3 áreas diferentes: 
 </details>
 
 ## Talk is cheap. Show me the code!
-Você deverá construir um pequeno sistema para publicação de vagas de emprego. Ele irá possuir os seguintes recursos:
-* Acesso público, com a listagem das vagas abertas
-* Login
-* Acesso administrativo, de acesso privado, com os seguintes recursos:
-  * Cadastro de vaga contendo os campos: title (string, 256 characteres, obrigatório), description (string, 10000 caracteres, obrigatório), status (enum, obrigatório), workplace (endereço, opcional), salary (dólar americano, opcional).
+
+Você deverá construir uma API REST com as seguintes funcionalidades:
+* Cadastro/Login de recrutadores, onde cada recrutador pertence a uma empresa diferente
+* CRUD de vagas pelos recrutadores
+   * Vagas possuem os campos: title (string), description, status, address, salary, company
+   * Um recrutador não pode modificar vagas criadas por outro
+* Listagem pública de vagas abertas
+* Busca pública de vagas abertas
+   * Critérios de busca que devem ser aceitos: keyword, address, salary, company
+  
  
 #### Observações
-- Você pode, ou não, utilizar qualquer framework ou biblioteca PHP que desejar, desde que a lógica de negócio descrita acima seja feita por você, em puro PHP.
-- As interfaces podem ou não serem gráficas (GUI), isto é, podem ser qualquer tipo de canal que possibilite a comunicação com a aplicação, tais como: RESTful, GraphQL, SOAP, JSON-RPC, (X)HTML com ou sem javascript, etc.
-- Testes automatizados (de unidade e/ou funcionais e/ou aceitação) deverão ser escritos.
+- É permitido utilizar qualquer biblioteca ou framework PHP, desde que a lógica de neǵocio seja escrita por você em PHP;
+- Interface gráfica é opcional, desde que a comunicação com o back-end seja feita através dos endpoints REST desenvolvidos por você;
+- Testes automatizados (de unidade e/ou funcionais e/ou aceitação) são **obrigatórios**;
 - Um README.md deverá ser adicionado e conter, no mínimo, as instruções de setup e utilização da aplicação.
 
 #### Envio
-Para enviar o seu código, submeta uma pull request para este repositório.
+Para enviar o seu código, submeta uma pull request para este repositório com o título da PR contendo seu nome e sobrenome.
 
 #### Disclaimer
 O código fonte que você produzir será utilizado somente para avaliar sua aptidão para a vaga. Não será feito nenhum uso comercial do código fonte, tampouco haverá a exigência de direitos de atribuição.
