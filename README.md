@@ -41,7 +41,7 @@ A Talentify.io nasceu da fusão de 3 empresas distintas em 3 áreas diferentes: 
 Você deverá construir uma API REST com as seguintes funcionalidades:
 * Cadastro/Login de recrutadores, onde cada recrutador pertence a uma empresa diferente
 * CRUD de vagas pelos recrutadores
-   * Vagas possuem os campos: title (string), description, status, address, salary, company
+   * Vagas possuem os campos: title, description, status, address, salary, company
    * Um recrutador não pode modificar vagas criadas por outro
 * Listagem pública de vagas abertas
 * Busca pública de vagas abertas
