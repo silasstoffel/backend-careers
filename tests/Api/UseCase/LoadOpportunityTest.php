@@ -37,7 +37,7 @@ class LoadOpportunityTest extends TestCase
         $requestHelper->createRecruiterAccount($this, $this->recruiter);
     }
 
-    public function OtestShouldLoadOpportunity()
+    public function testShouldLoadOpportunity()
     {
         $response = $this->createOpportunity($this->opportunity);
         $response->seeStatusCode(201);
